@@ -21,6 +21,7 @@ const div = dom.create('<div><span></span></div>');
 * 一个小技巧  
 已经提交过的文件或者文件夹怎么办？此时更改.gitignore文件对已经提交的文件是无效的。  
 如果是单个文件，可以使用如下命令从仓库中删除：  
-git rm --cached logs/xx.log 
-如果是整个目录：
+git rm --cached logs/xx.log   
+如果是整个目录：  
 git rm --cached -r logs
+ 
